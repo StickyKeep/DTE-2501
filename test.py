@@ -17,3 +17,11 @@ result = C @ D
 print(result)
 print(result2)
 
+A = np.array([[3, 2],
+              [1, -1]])
+b = np.array([18, 2])
+
+x = np.linalg.solve(A, b)
+
+print(x)
+
